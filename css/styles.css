@@ -171,6 +171,7 @@ button {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    border-radius: 4px;
     color: var(--pre-main-color);
     padding-top: 10px;
     padding-bottom: 10px;
@@ -257,6 +258,9 @@ button {
 .about-workers {
     flex-basis: calc(100% - 90px) / 3;
     margin-left: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.16);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .about-workers-div {
@@ -367,6 +371,7 @@ button {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    border-radius: 4px;
     color: var(--pre-main-color);
     padding-top: 6px;
     padding-bottom: 6px;
@@ -395,6 +400,9 @@ padding-top: 20px;
 padding-bottom: 20px;
 padding-left: 24px;
 padding-right: 24px;
+border-bottom: 1px solid #ECECEC;
+border-left: 1px solid #ECECEC;
+border-right: 1px solid #ECECEC;
 }
 
 .work {
