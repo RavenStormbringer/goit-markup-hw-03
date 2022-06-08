@@ -110,13 +110,12 @@ button {
     display: flex;
 }
 
-.header-link:not(last-child) {
+.header-link-li:not(last-child) {
     margin-right: 50px;
 }
 
 .header-contacts {
     display: flex;
-    padding: 32px 0;
     margin-left: auto;
 }
 
@@ -173,6 +172,11 @@ button {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--pre-main-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    
 }
 
 .main-button:hover,
@@ -226,6 +230,7 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--pre-main-color);
+    padding-top: 94px;
     margin-bottom: 50px;
 }
 
@@ -252,6 +257,11 @@ button {
 .about-workers {
     flex-basis: calc(100% - 90px) / 3;
     margin-left: 30px;
+}
+
+.about-workers-div {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .names {
@@ -300,7 +310,6 @@ button {
     letter-spacing: 0.03em;
     font-style: normal;
     color: var(--main-color);
-    margin-bottom: 9px;
     margin-top: 20px;
 }
 
@@ -330,6 +339,8 @@ button {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    margin-top: 9px;
+    margin-bottom: 60px;
 }
 
 
@@ -342,6 +353,7 @@ button {
 .filter {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .filter-item:not(:last-child) {
@@ -356,7 +368,10 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--pre-main-color);
-    margin-bottom: 50px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
 }
 
 .pre-main-button:hover,
@@ -373,6 +388,13 @@ button {
 .gallery-item {
     flex-basis: calc(100% / 3 - 30px);
     margin: 15px;
+}
+
+.work-div {
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 24px;
+padding-right: 24px;
 }
 
 .work {
