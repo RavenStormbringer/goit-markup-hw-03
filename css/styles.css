@@ -142,6 +142,7 @@ button {
 
 
 
+
  .section-one {
      background: var(--pre-main-color);
      padding-top: 200px;
@@ -172,7 +173,7 @@ button {
     text-align: center;
     letter-spacing: 0.06em;
     border-radius: 4px;
-    color: var(--pre-main-color);
+    color: var(--main-color);
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 32px;
@@ -187,6 +188,7 @@ button {
 
 
 
+
 .section-two {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -196,8 +198,6 @@ button {
     display: flex;
     justify-content: space-between
 }
-
-
 
 .title {
     font-weight: 700;
@@ -220,6 +220,7 @@ button {
 
 
 
+
 .section-three {
     padding-bottom: 94px;
 }
@@ -231,7 +232,6 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--pre-main-color);
-    padding-top: 94px;
     margin-bottom: 50px;
 }
 
@@ -248,6 +248,17 @@ button {
 .section-four {
     padding-bottom: 94px;
     background: #F5F4FA;
+}
+
+.team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--pre-main-color);
+    padding-top: 94px;
+    margin-bottom: 50px;
 }
 
 .workers {
@@ -287,6 +298,7 @@ button {
     color: var(--text-color);
     padding-top: 10px;
 }
+
 
 
 
@@ -347,7 +359,15 @@ button {
     margin-bottom: 60px;
 }
 
+.header-two {
+    border-bottom: 1px solid #ECECEC;   
+}
 
+.header-two .container {
+    display: flex;
+    align-items: center;
+    
+}
 
 .portfolio {
     padding-top: 94px;
