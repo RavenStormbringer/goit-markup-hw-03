@@ -223,6 +223,7 @@ button {
 
 .section-three {
     padding-bottom: 94px;
+    
 }
 
 .pre-main-title {
@@ -246,6 +247,7 @@ button {
 
 
 .section-four {
+    padding-top: 94px;
     padding-bottom: 94px;
     background: #F5F4FA;
 }
@@ -257,7 +259,6 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--pre-main-color);
-    padding-top: 94px;
     margin-bottom: 50px;
 }
 
